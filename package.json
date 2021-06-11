@@ -1,0 +1,22 @@
+{
+  "name": "spa-r-m",
+  "version": "1.0.0",
+  "description": "SPA de Rick and Morty",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domakedev/SPA-Rick-and-Morty.git"
+  },
+  "keywords": [
+    "SPA"
+  ],
+  "author": "CESAR GUEVARA CABRERA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domakedev/SPA-Rick-and-Morty/issues"
+  },
+  "homepage": "https://github.com/domakedev/SPA-Rick-and-Morty#readme"
+}
