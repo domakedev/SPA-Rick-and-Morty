@@ -14,9 +14,9 @@ const Header = () => {
         About</a>
     </div>
     `;
-    return view; // Importante esto
+    return (view);
+    //return view; // Importante esto
 };
 
-export default Header(); //Importante esto
-
+export default Header; //Importante esto
 
