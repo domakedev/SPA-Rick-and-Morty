@@ -3,7 +3,7 @@ const path = require('path')
 
 //Archivo para trabajar con HTML
 const HtmlWebpackPlugin= require('html-webpack-plugin')//Para trabajar con HTML
-const CopyWebpackPlugin= require('copy-webpack-plugin')//Para trabajar con HTML
+const CopyWebpackPlugin= require('copy-webpack-plugin')//Para trabajar con css
 
 //Creamos el modulo de configuracion y de salida
 module.exports = {
