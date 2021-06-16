@@ -9,7 +9,7 @@ import resolveRoutes from '../utils/resolveRoutes';
 const routes = { //Aqui definimos nuestras rutas! en un objeto
     '/': Home,
     '/:id':Character,//Nos dice que el valor de id sera dinamico
-    '/contact':'Contact'
+    '/contact':'Contact',
 };
 
 const router= async () => {
@@ -18,12 +18,12 @@ const router= async () => {
 
     header.innerHTML = await Header();//Insertamos HTML en el HTML pero esperamos que 
 
-    let getHashId=await getHash();
+    let getHashId=getHash();
+    console.log("Hash desde Routes A:"+getHashId);
     let route= await resolveRoutes(getHashId);
-    let render =await routes[route]?routes[route]:Error404
-
-    content.innerHTML = await render
+    let render = routes[route]?routes[route]:Error404
     
+    content.innerHTML = await render();
 };
 
 export default router;

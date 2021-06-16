@@ -28,13 +28,13 @@ module.exports = {
         ]
     },
     plugins:[ // Establecer plugins para trabajar
-        new HtmlWebpackPlugin([ //Creado en base a la instancia del inicio
+        new HtmlWebpackPlugin( //Creado en base a la instancia del inicio
             {
                 inject:true,//Inyectar un valor a un archivo HTML
                 template:'./public/index.html',//Template principal ubicacion
                 filename:'./index.html'//Saldra directo a la carpeta DIST configurada con el nombre...
             }
-        ])
+        )
     ]
 
 }

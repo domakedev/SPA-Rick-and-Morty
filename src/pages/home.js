@@ -25,4 +25,4 @@ const Home=async() => {
     return view;
 }
 
-export default Home();
+export default Home;

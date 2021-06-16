@@ -1,6 +1,8 @@
 const resolveRoutes = (route) => {
     if (route.length<=3){
-        return route === '/' ? route : '/:id'//Porque retornamos esto?:'/:id'
+        let xxx = route === '/' ? route : '/:id'//Porque retornamos esto?:'/:id'
+        //console.log(xxx);
+        return xxx
     }
 
     return `/${route}`
