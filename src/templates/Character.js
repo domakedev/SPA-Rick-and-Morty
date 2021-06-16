@@ -1,3 +1,5 @@
+
+
 const Character =()=>{
     const view = `
     <div class="Characters-inner">

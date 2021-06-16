@@ -14,7 +14,7 @@ const Header = () => {
         About</a>
     </div>
     `;
-    return (view);
+    return view
     //return view; // Importante esto
 };
 
